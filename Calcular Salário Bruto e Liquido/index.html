@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Salários</title>
+</head>
+
+<body>
+
+    <h1 id="title">Calcule o seu Salário Liquido</h1>
+    <div class="master-div-style">
+        <p id="description">Preencha todos os campos.</p>
+        <div class="form-rows">
+            <div class="labels">
+                <label for="numero" id="numero-label">Numero de trabalhador:</label>
+            </div>
+            <div class="fields">
+                <input type="number" id="numero" class="input-fields" placeholder="Escreva o seu numero de trabalhador">
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="labels">
+                <label for="nome" id="nome-label">Nome:</label>
+            </div>
+            <div class="fields">
+                <input id="nome" class="input-fields" placeholder="Escreva o seu nome" type="text">
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="labels">
+                <label for="horas" id="horas-label">Quantas horas trabalhou este mês?</label>
+            </div>
+            <div class="fields">
+                <input type="number" id="horas" class="input-fields"
+                    placeholder="Escreva o número de horas que trabalhou">
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="labels">
+                <label for="valor" id="valor-label">Quanto recebe por hora?</label>
+            </div>
+            <div class="fields">
+                <input type="number" id="valor" class="input-fields" placeholder="Escreva quanto recebe por hora">
+            </div>
+        </div>
+        <button class="button" id="submit" onclick="calcularSalario()">Calcular</button>
+    </div>
+    <br>
+    <div class="master-div-style" id="results">
+        <p id="description salarioB"></p>
+        <p id="description salarioL"></p>
+    </div>
+
+    <div class="git">
+        Find me on <a class="gitLink" href="https://github.com/DCoelhoo" target="_blank">GitHub</a>
+    </div>
+
+</body>
+
+
+</html>

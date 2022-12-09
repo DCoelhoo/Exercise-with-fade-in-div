@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background-color: #a9d7e9;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.form-rows {
+    position: static;
+    display: block;
+}
+
+.master-div-style {
+    margin: auto;
+    width: 800px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+.fields {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.input-fields {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 290px;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.radio {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.user-selection {
+    float: left;
+    margin-right: 5px;
+}
+
+.button {
+    font-size: 1em;
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #6ba2ce;
+    border: 1px solid #6ba2ce;
+    cursor: pointer;
+}
+
+.git {
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+#results { 
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
